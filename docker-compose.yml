@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  frontend:
+    #this is the docker file path
+    build: ./frontend-streamlit
+    ports:
+      - 8001:8001
+  backend:
+    build: ./backend-fastapi
+    ports:
+      - 8000:8000

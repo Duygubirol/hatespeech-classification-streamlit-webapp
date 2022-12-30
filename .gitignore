@@ -1,3 +1,6 @@
+backend-fastapi/app/model/results
+backend-fastapi/app/model/hatespeech_multiclass_BERT_01dataset
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
