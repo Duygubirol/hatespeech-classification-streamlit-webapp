@@ -7,7 +7,7 @@ from transformers import (BertTokenizerFast, TFBertForSequenceClassification,
 
 
 def load_model():
-    filepath = './model/hatespeech_multiclass_BERT_01dataset'
+    filepath = './model/hatespeech_multiclass_BERT_100pctdataset'
 
     model_reloaded = TFBertForSequenceClassification.from_pretrained(
         filepath, local_files_only=True)

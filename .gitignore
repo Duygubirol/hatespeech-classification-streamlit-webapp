@@ -1,5 +1,8 @@
-backend-fastapi/app/model/results
+backend-fastapi/app/model/results/runs/
 backend-fastapi/app/model/hatespeech_multiclass_BERT_01dataset
+*.h5
+.DS_Store
+config.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

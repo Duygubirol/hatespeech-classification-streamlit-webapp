@@ -3,6 +3,7 @@
 
 import uvicorn
 from fastapi import FastAPI
+# this intra package import path is made as Docker run from /app folder
 from model.utils import make_prediction
 from pydantic import BaseModel
 
@@ -25,9 +26,6 @@ def operate(input: input_schema):
     result = make_prediction(input.input_text)
     return result
 
-
-# if __name__ == '__main__':
-#     print(make_prediction('hi bitch'))
 
 # if __name__ == '__main__':
 #     uvicorn.run(app, port=8001, host='0.0.0.0')
