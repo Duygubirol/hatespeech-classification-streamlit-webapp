@@ -1,6 +1,6 @@
 FROM python:3.9
 
-WORKDIR frontend
+WORKDIR /frontend
 
 COPY requirements.txt .
 
